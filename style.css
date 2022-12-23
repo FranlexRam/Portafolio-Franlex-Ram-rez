@@ -39,9 +39,22 @@ h1 {
     font-family: 'rubik dirt', cursive;
 }
 
+.seccion-descripcion {
+    font-size: 1.2rem;
+    color: #584e4e;
+}
+
 .seccion-texto {
     font-size: 1.2rem;
     padding: 0 20px;
+}
+
+.texto-negro {
+    color: black;
+}
+
+.texto-blanco {
+    color: white;
 }
 
 /* Section hero */
@@ -124,6 +137,27 @@ h1 {
 
 .badge {
     margin: 5px;
+}
+
+/* Proyectos */
+
+.proyectos-recientes {
+    padding: 40px;
+
+}
+
+.proyectos-recientes img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.proyectos-contenedor {
+    padding-top: 60px;
+    margin-bottom: 40px;
 }
 
 
