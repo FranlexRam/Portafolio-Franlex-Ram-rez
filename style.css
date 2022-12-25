@@ -49,6 +49,10 @@ h1 {
     padding: 0 20px;
 }
 
+.btn-info {
+ margin: 20px;   
+}
+
 .texto-negro {
     color: black;
 }
@@ -198,8 +202,34 @@ h1 {
     margin: 10px;
 }
 
+.overlay i:hover {
+    color: rgb(28, 246, 8);
+}
+
 
 /* Apadtable (Responsivo) */
+
+@media screen and (max-width: 384px) {
+    .seccion-titulo {
+        font-size: 1.5rem;
+    }
+
+    .seccion-texto {
+        font-size: 1rem;
+    }
+    
+}
+
+@media screen and (max-width: 400px) {
+    .overlay p {
+        font-size: 18px;
+    }
+
+    .overlay i  {
+        font-size: 40px;
+    }
+    
+}
 
 @media screen and (max-width: 767px) {
     .navbar-brand {
